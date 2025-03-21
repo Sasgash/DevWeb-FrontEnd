@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista do Salário dos Funcionários</title>
+  <link rel="stylesheet" href="Questao2-1.css">
+</head>
+<body>
+  <h1 class="titulo">Lista do Salário dos Funcionários</h1>
+  <div id="dados">
+    <label for="inputNome">Digite o nome do funcionário: </label>
+    <input id="inputNome" type="text" required><br>
+    <label for="inputPecas">Digite o número de peças fabricadas pelo funcionário: </label>
+    <input id="inputPecas" type="number" min="1" required><br>
+    <button id="botaoEnviar">Enviar</button>
+  </div>
+
+  <div class="lista">
+    <ul id="listaSalario">Nome | Salário</ul>
+  </div>
+
+  <div class="relatorio">
+    <p id="totalSalario">Total pago com salários: R$ 0,00</p>
+    <p id="mediaSalario">Média dos salários: R$ 0,00</p>
+  </div>
+  <script defer src="Questao2-1.js"></script>
+</body>
+</html>
